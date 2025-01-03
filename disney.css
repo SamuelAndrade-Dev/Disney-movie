@@ -13,7 +13,8 @@ body {
 
 .container-top {
     background-color: #141722;
-    height: 100px;
+    height: 90px;
+    width: 100%;
     img {
         padding-top: 20px;
         padding-left: 50px;
@@ -48,10 +49,12 @@ body {
     .perfil {
         display: flex;
         align-items: center;
-        img {
-            padding-right: 40px;
-            border-radius: 20px;
-            width: 60px;
+        a {
+            img {
+                padding-right: 40px;
+                border-radius: 20px;
+                width: 50px;
+            }
         }
         p {
             color: white;
@@ -62,11 +65,54 @@ body {
 
 .container-recomendados {
     color: white;
-    display: grid;
-    grid-template-columns: 1fr, 5fr, 1fr;
-    grid
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
     img {
-        width: 50px;
-        height: 100px;
+        padding-top: 40px;
+        width: 244px;
+        height: 132px;
+    }
+}
+
+.container-disnep {
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+    img {
+        padding-top: 80px;
+        width: 244px;
+        height: 132px;
+    }
+}
+
+.container-pixar {
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+    img {
+        padding-top: 80px;
+        width: 244px;
+        height: 132px;
+    }
+}
+.container-marvel {
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+    img {
+        padding-top: 80px;
+        width: 244px;
+        height: 132px;
+    }
+}
+.container-continuos {
+    display: flex;
+    padding-left: 80px;
+    gap: 20px;
+    img {
+       padding-top: 80px;
+        width: 244px;
+        height: 132px;
     }
 }
